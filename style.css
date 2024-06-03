@@ -205,6 +205,21 @@
     margin: 0 auto;
 }
 
+.isi-content {
+    max-width: 50rem;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.judul-background {
+    width: 30px;
+    height: 40px;
+    background-color: #508D69;
+    left: -6px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
 /* Template Tailwind */
 .text-center {
     text-align: center;
@@ -218,6 +233,53 @@
     text-align: right;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
 /* Other sections (Program Keahlian, Fasilitas, Berita & Kegiatan, Kontak) */
 .program-keahlian,
 .fasilitas,
