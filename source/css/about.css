@@ -1,0 +1,196 @@
+/* Tentang Kami */
+.tentang-kami {
+  width: 100%;
+  height: fit-content;
+  background-color: #FBF6EE;
+  padding: 7rem 5rem;
+}
+
+.subsection-title {
+  font-size: 2rem;
+}
+
+.sub-title-span {
+  color: #508D69;
+  max-width: 60rem;
+}
+
+.judul-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.isi-content {
+  width: 50%;
+  margin-top: 3rem;
+}
+
+.judul-background {
+  width: 30px;
+  height: 40px;
+  background-color: #508D69;
+  left: -6px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
+.kajur {
+  right: -60px;
+}
+
+.name-background {
+  background-color: #508D69;
+  width: 600px;
+  height: 130px;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  right: -80px;
+  bottom: 0;
+  padding: 10px 50px 10px;
+}
+
+.sub-name {
+  width: 100%;
+  height: 100%;
+  color: white;
+  letter-spacing: 3px;
+}
+
+/* Swiper Desain */
+.swiper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.swiper-slide {
+  box-sizing: border-box;
+  padding: 1rem;
+  flex: 1 0 100%;
+}
+
+.card {
+  background: #fff;
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 3rem;
+  color: #333;
+}
+
+/* Navigation Buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #508D69;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 10px;
+  border-radius: 10px;
+  height: 45px;
+  width: 60px;
+  font-size: x-large;
+}
+
+.swiper-button-next {
+  right: 10px;
+  border-radius: 10px;
+  height: 45px;
+  width: 60px;
+  font-size: x-large;
+}
+
+@media (max-width: 768px) {
+  .tentang-kami {
+    padding: 2rem 1.5rem;
+  }
+
+  .subsection-title {
+    font-size: 1.5rem;
+    margin-top: 6rem;
+  }
+
+  .judul-content {
+    max-width: 100%;
+  }
+
+  .isi-content {
+    width: 100%;
+  }
+
+  .judul-background {
+    display: none;
+  }
+
+  .visi,
+  .tujuan {
+    text-align: center;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kajur {
+    position: relative;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .name-background {
+    width: 100%;
+    right: 0;
+    border-radius: 0;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .sub-name {
+    letter-spacing: 1px;
+  }
+}
+
+.card h3 {
+  font-size: 1.25rem;
+}
+
+.swiper-slide {
+  flex: 1 0 33.333%;
+}

@@ -29,3 +29,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// Untuk Swiper card guru
+document.addEventListener('DOMContentLoaded', function() {
+    const prevButton = document.querySelector('.swiper-button-prev');
+    const nextButton = document.querySelector('.swiper-button-next');
+    const swiperWrapper = document.querySelector('.swiper-wrapper');
+    const slides = document.querySelectorAll('.swiper-slide');
+    let currentIndex = 0;
+
+    function updateSwiper() {
+        const totalSlides = slides.length;
+        const slideWidth = slides[0].clientWidth;
+        swiperWrapper.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    }
+
+    prevButton.addEventListener('click', function() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateSwiper();
+        }
+    });
+
+    nextButton.addEventListener('click', function() {
+        if (currentIndex < slides.length - 1) {
+            currentIndex++;
+            updateSwiper();
+        }
+    });
+
+    window.addEventListener('resize', updateSwiper);
+    updateSwiper();
+});
