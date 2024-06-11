@@ -45,6 +45,10 @@
     align-items: stretch;
 }
 
+.text-white {
+    color: white;
+}
+
 .text-xs {
     font-size: 0.75rem;
 }
@@ -115,4 +119,12 @@
 
 .justify-between {
     justify-content: space-between;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
 }
