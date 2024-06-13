@@ -1,4 +1,4 @@
-.copy h1 {
+/* .copy h1 {
     font-size: 1.8rem;
     padding: 0;
     margin: 0 10px 0 0;
@@ -16,7 +16,7 @@
     margin: 0;
     font-size: 1rem;
     line-height: 1.5rem;
-    color: graytext;
+    color: #508D69;
 }
 
 .swiper-container {
@@ -136,7 +136,7 @@
     transition: 0.2s all;
 }
 
-/* Card 1 */
+/* Card 1 
 .new-york {
     background: url("../../assets/img/kegiatan-guru/Kegiatan-14.jpg") center/cover;
 }
@@ -281,4 +281,4 @@
 .footer .comments:hover {
     color: #508D69;
     transition: 0.2s all;
-}
+} */

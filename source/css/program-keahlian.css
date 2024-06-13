@@ -1,0 +1,50 @@
+/* Program Keahlian */
+.program-keahlian {
+    width: 100%;
+    height: fit-content;
+}
+
+.program-judul {
+    background-image: url(../../assets/img/kegiatan-guru/Kegiatan-15.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -7rem;
+    width: 100%;
+    height: 450px;
+}
+
+.program-content {
+    width: 100%;
+    height: 100%;
+    background-color: #508d69c7;
+    backdrop-filter: blur(3px);
+    padding: 0 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.program-title {
+    text-align: right;
+}
+
+.program-title h1 {
+    font-size: 3rem;
+}
+
+.program-title p {
+    font-size: 1.7rem;
+    max-width: 700px;
+    color: white;
+}
+.program-img {
+    background-image: url(../../assets/img/kegiatan-guru/Kegiatan-17.jpg);
+    position: absolute;
+    left: 0;
+    height: 80%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
