@@ -1,7 +1,7 @@
 /* Program Keahlian */
 .program-keahlian {
     width: 100%;
-    height: fit-content;
+    background-color: #FBF6EE;
 }
 
 .program-judul {
@@ -49,9 +49,33 @@
     border-bottom-right-radius: 9999px;
 }
 
+.parent-kompetensi {
+    height: fit-content;
+}
+
+.child-kompetensi {
+    margin-bottom: 2rem;
+}
+
+.kemampuan-judul {
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+    height: fit-content;
+    color: #FFB534;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.kemampuan-judul i {
+    font-size: 40px;
+    color: #508D69;
+    position: absolute;
+    top: -30px;
+}
+
 .kompetensi {
     max-width: 800px;
-    padding: 4rem;
 }
 
 .keahlian {
@@ -83,11 +107,37 @@
     padding: 0 10px;
     border-radius: 5px;
     margin-top: 5px;
-    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: max-height 1s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 
 .keahlian:hover .explanation {
     max-height: 200px;
     opacity: 1;
     padding: 10px;
+}
+
+.parent-kompetensi {
+    padding: 4rem;
+    height: fit-content;
+}
+
+.parent-prospek {
+    
+}
+
+.prospek-judul {
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+    height: fit-content;
+    color: #FFB534;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.prospek-judul i {
+    font-size: 40px;
+    color: #508D69;
+    position: absolute;
+    top: -30px;
 }
