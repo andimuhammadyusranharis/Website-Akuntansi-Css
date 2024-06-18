@@ -20,10 +20,10 @@
 }
 
 .footer-links {
+  width: fit-content;
   display: flex;
   flex: 2;
   justify-content: space-around;
-  min-width: 400px;
   gap: 2rem;
 }
 
@@ -144,38 +144,38 @@
 
   .jurusan-img {
     flex-direction: row;
-    gap: 1rem;
+    gap: 10px;
   }
 
   .jurusan-1 {
-    width: 60px;
+    width: 40px;
   }
 
   .jurusan-2 {
-    width: 60px;
+    width: 40px;
   }
 
   .jurusan-3 {
-    width: 60px;
+    width: 40px;
   }
 
   .jurusan-4 {
-    width: 50px;
+    width: 35px;
   }
 
   .jurusan-5 {
-    width: 60px;
+    width: 40px;
   }
 
   .jurusan-6 {
-    width: 60px;
+    width: 40px;
   }
 
   .jurusan-7 {
-    width: 45px;
+    width: 35px;
   }
 
   .footer-info {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
