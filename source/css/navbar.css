@@ -121,8 +121,24 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    height: 4rem;
+  }
+
+  .sidebar {
+    top: 4rem;
+  }
+
+  .logo{
+    width: 35px;
+  }
+
+  .navbar-logo h1 {
+    font-size: 15px;
+  }
+
   .navbar-title {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .menu {
@@ -130,16 +146,16 @@
   }
 
   .menu-btn {
-      display: block;
-      color: white;
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
   }
 
   .sidebar-content {
-      width: 100%;
-      padding: 1rem;
+    width: 100%;
+    padding: 1rem;
   }
 
   .sidebar-menu {

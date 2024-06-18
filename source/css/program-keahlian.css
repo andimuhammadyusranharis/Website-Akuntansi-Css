@@ -57,6 +57,11 @@
     margin-bottom: 2rem;
 }
 
+.child-kompetensi-content {
+    display: flex;
+    flex-direction: row;
+}
+
 .kemampuan-judul {
     display: flex;
     justify-content: left;
@@ -122,7 +127,7 @@
 }
 
 .parent-kompetensi {
-    padding: 4rem;
+    padding: 1rem;
     height: fit-content;
 }
 
@@ -153,7 +158,7 @@
     }
 
     .program-title {
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .program-title h1 {
@@ -165,7 +170,7 @@
     }
 
     .program-img {
-        top: 10rem;
+        top: 12rem;
         height: 50%;
         width: 70%;
     }

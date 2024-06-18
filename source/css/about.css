@@ -6,6 +6,7 @@
 }
 
 .visi-misi {
+  height: fit-content;
   padding: 7rem 5rem;
   position: relative;
 }
@@ -186,9 +187,13 @@
 }
 
 @media (max-width: 768px) {
+  .visi-misi {
+    padding: 1rem 1.3rem;
+  }
+
   .subsection-title {
-    font-size: 2rem;
-    margin-top: 6rem;
+    font-size: 1rem;
+    margin-top: 2rem;
   }
 
   .judul-content {
@@ -197,10 +202,33 @@
 
   .isi-content {
     width: 100%;
+    max-width: none;
+    margin-bottom: 3rem;
   }
 
   .judul-background {
     display: none;
+  }
+
+  .isi-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .isi-content p, li {
+    font-size: 1rem;
+  }
+
+  .child-isi-content {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .sub-content {
+    display: block;
+  }
+
+  .judul-background {
+    right: 100px;
   }
 
   .visi,
@@ -209,17 +237,20 @@
   }
 
   .kajur {
-    position: relative;
+    display: none;
+    position: absolute;
     right: 0;
     width: 100%;
     text-align: center;
-    margin-top: 2rem;
+    top: 20rem;
   }
 
   .name-background {
+    display: none;
+    position: relative;
     width: 100%;
     right: 0;
-    bottom: 30px;
+    bottom: -3rem;
     border-radius: 0;
     text-align: center;
     padding: 10px;
@@ -240,7 +271,7 @@
   }
 
   .profil-title {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .profil-title h1 {
@@ -252,7 +283,7 @@
   }
 
   .profil-img {
-    top: 10rem;
+    top: 12rem;
     height: 50%;
     width: 70%;
   }
