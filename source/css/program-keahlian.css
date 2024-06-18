@@ -50,6 +50,7 @@
 }
 
 .parent-kompetensi {
+    padding: 4rem;
     height: fit-content;
 }
 
@@ -60,6 +61,7 @@
 .child-kompetensi-content {
     display: flex;
     flex-direction: row;
+    gap: 10rem;
 }
 
 .kemampuan-judul {
@@ -68,7 +70,7 @@
     width: 100%;
     height: fit-content;
     color: #FFB534;
-    font-size: 1.4rem;
+    font-size: 2rem;
     position: relative;
     flex-direction: column;
 }
@@ -76,7 +78,7 @@
 .kemampuan-judul i {
     font-size: 40px;
     color: #508D69;
-    margin-bottom: -5px;
+    margin-bottom: -10px;
 }
 
 .kompetensi {
@@ -126,26 +128,67 @@
     padding: 10px;
 }
 
-.parent-kompetensi {
-    padding: 1rem;
-    height: fit-content;
-}
-
 .prospek-judul {
     display: flex;
     justify-content: left;
     width: 100%;
     height: fit-content;
     color: #FFB534;
-    font-size: 1.4rem;
+    font-size: 2rem;
     position: relative;
     flex-direction: column;
+    margin-bottom: 3rem;
 }
 
 .prospek-judul i {
     font-size: 40px;
     color: #508D69;
-    margin-bottom: -5px;
+    margin-bottom: -10px;
+}
+
+.prospek-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+}
+
+.prospek-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+    background-color: #fcedd3;
+    border-radius: 20px;
+}
+
+.prospek-img {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.prospek-title {
+    width: 80%;
+    padding: 20px;
+}
+
+.prospek-title h1 {
+    font-size: 1.7rem;
+    color: #508D69;
+}
+
+.prospek-title p {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.prospek-title ul li {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
@@ -191,6 +234,10 @@
         max-width: 800px;
     }
 
+    .parent-kompetensi {
+        padding: 1rem;
+    }
+
     .parent-kompetensi img {
         width: 300px;
         height: 300px;
@@ -198,6 +245,7 @@
 
     .child-kompetensi-content {
         flex-direction: column;
+        gap: 1rem;
     }
 
     .title {
@@ -218,5 +266,35 @@
 
     .prospek-judul i {
         font-size: 25px;
+    }
+
+    .prospek-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .prospek-img {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .prospek-title {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .prospek-title h1 {
+        font-size: 1rem;
+    }
+
+    .prospek-title p {
+        font-size: 14px;
+    }
+
+    .prospek-title ul li {
+        font-size: 14px;
     }
 }
