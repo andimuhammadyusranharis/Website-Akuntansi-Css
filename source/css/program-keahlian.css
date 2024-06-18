@@ -60,22 +60,27 @@
 .kemampuan-judul {
     display: flex;
     justify-content: left;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     color: #FFB534;
     font-size: 1.4rem;
     position: relative;
+    flex-direction: column;
 }
 
 .kemampuan-judul i {
     font-size: 40px;
     color: #508D69;
-    position: absolute;
-    top: -30px;
+    margin-bottom: -5px;
 }
 
 .kompetensi {
     max-width: 800px;
+}
+
+.kompetensi img {
+    width: 600px;
+    height: 600px;
 }
 
 .keahlian {
@@ -121,23 +126,88 @@
     height: fit-content;
 }
 
-.parent-prospek {
-    
-}
-
 .prospek-judul {
     display: flex;
     justify-content: left;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     color: #FFB534;
     font-size: 1.4rem;
     position: relative;
+    flex-direction: column;
 }
 
 .prospek-judul i {
     font-size: 40px;
     color: #508D69;
-    position: absolute;
-    top: -30px;
+    margin-bottom: -5px;
+}
+
+@media (max-width: 768px) {
+    .program-judul {
+        background-position: center;
+    }
+
+    .program-content {
+        flex-direction: column;
+    }
+
+    .program-title {
+        margin-top: 3rem;
+    }
+
+    .program-title h1 {
+        font-size: 1.7rem;
+    }
+
+    .program-title p {
+        font-size: 1rem;
+    }
+
+    .program-img {
+        top: 10rem;
+        height: 50%;
+        width: 70%;
+    }
+
+    .kemampuan-judul {
+        margin-bottom: 10px;
+    }
+
+    .kemampuan-judul h1 {
+        font-size: 1.5rem;
+    }
+
+    .kemampuan-judul i {
+        font-size: 25px;
+    }
+
+    .kompetensi {
+        max-width: 400px;
+    }
+
+    .parent-kompetensi img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .explanation {
+        font-size: 15px;
+    }
+    
+    .prospek-judul {
+        margin-bottom: 10px;
+    }
+
+    .prospek-judul h1 {
+        font-size: 1.5rem;
+    }
+
+    .prospek-judul i {
+        font-size: 25px;
+    }
 }

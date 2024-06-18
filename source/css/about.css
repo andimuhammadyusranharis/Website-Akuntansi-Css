@@ -73,8 +73,6 @@
 .profil-judul {
   background-image: url(../../assets/img/kegiatan-guru/Kegiatan-1.jpg);
   background-size: cover;
-  background-position: 0 -7rem;
-  width: 100%;
   height: 450px;
 }
 
@@ -86,6 +84,7 @@
   padding: 0 3rem;
   align-items: center;
   display: flex;
+  justify-content: left;
 }
 
 .profil-title h1 {
@@ -109,14 +108,19 @@
   border-bottom-left-radius: 9999px;
 }
 
-.profil-content {
+.lg-profil-content {
   padding: 4rem;
   gap: 2rem;
+  display: flex;
 }
 
-.profil-content-row {
+.md-profil-content {
+  display: none;
+}
+
+.lg-profil-content-row {
   justify-content: center;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .profile-card {
@@ -182,10 +186,6 @@
 }
 
 @media (max-width: 768px) {
-  .tentang-kami {
-    padding: 2rem 3rem;
-  }
-
   .subsection-title {
     font-size: 2rem;
     margin-top: 6rem;
@@ -208,11 +208,6 @@
     text-align: center;
   }
 
-  .flex {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .kajur {
     position: relative;
     right: 0;
@@ -233,5 +228,57 @@
 
   .sub-name {
     letter-spacing: 1px;
+  }
+
+  .profil-judul {
+    background-position: center;
+    width: 100%;
+  }
+
+  .bd-profil {
+    flex-direction: column;
+  }
+
+  .profil-title {
+    margin-top: 3rem;
+  }
+
+  .profil-title h1 {
+      font-size: 1.7rem;
+  }
+
+  .profil-title p {
+      font-size: 1rem;
+  }
+
+  .profil-img {
+    top: 10rem;
+    height: 50%;
+    width: 70%;
+  }
+
+  .lg-profil-content {
+    display: none;
+  }
+
+  .md-profil-content {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .md-profil-content-row {
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .profile-card {
+    width: 110px;
+    height: 160px;
+  }
+
+  .profile-info {
+    font-size: 7px;
   }
 }

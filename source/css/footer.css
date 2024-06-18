@@ -87,58 +87,50 @@
   border-radius: 9999px;
 }
 
-.jurusan-slider {
-  background-color: transparent;
-  padding: 0 1rem;
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 0 auto;
+.jurusan-1 {
+  width: 80px;
 }
 
-.slider-wrapper {
-  display: flex;
-  overflow: hidden;
+.jurusan-2 {
+  width: 80px;
 }
 
-.slider {
-  display: flex;
-  transition: transform 0.3s ease-in-out;
+.jurusan-3 {
+  width: 80px;
 }
 
-.slide {
-  min-width: calc(100% / 7);
-  box-sizing: border-box;
-  padding: 1rem;
-  width: fit-content;
+.jurusan-4 {
+  width: 70px;
 }
 
-.slide img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.jurusan-5 {
+  width: 80px;
 }
 
-.slider-nav {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none;
-  gap: 0.5rem;
+.jurusan-6 {
+  width: 80px;
 }
 
+.jurusan-7 {
+  width: 60px;
+}
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+  }
+
+  .footer-logo p {
+    text-align: center;
   }
 
   .footer-links {
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    gap: 1rem;
   }
 
   .footer-links div {
@@ -147,5 +139,43 @@
 
   .footer-bottom {
     flex-direction: column;
+    gap: 2rem;
+  }
+
+  .jurusan-img {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .jurusan-1 {
+    width: 60px;
+  }
+
+  .jurusan-2 {
+    width: 60px;
+  }
+
+  .jurusan-3 {
+    width: 60px;
+  }
+
+  .jurusan-4 {
+    width: 50px;
+  }
+
+  .jurusan-5 {
+    width: 60px;
+  }
+
+  .jurusan-6 {
+    width: 60px;
+  }
+
+  .jurusan-7 {
+    width: 45px;
+  }
+
+  .footer-info {
+    font-size: 13px;
   }
 }
