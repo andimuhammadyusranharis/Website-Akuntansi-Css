@@ -1,0 +1,66 @@
+.fasilitas-judul {
+    background-image: url(../../assets/img/kegiatan-guru/Kegiatan-1.jpg);
+    background-size: cover;
+    height: 450px;
+  }
+  
+  .fasilitas-content {
+    width: 100%;
+    height: 100%;
+    background-color: #508d69c7;
+    backdrop-filter: blur(3px);
+    padding: 0 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+  }
+  
+  .fasilitas-title h1 {
+    font-size: 3rem;
+  }
+  
+  .fasilitas-title p {
+    font-size: 1.7rem;
+    max-width: 700px;
+    color: white;
+  }
+  .fasilitas-img {
+    background-image: url(../../assets/img/kegiatan-guru/Kegiatan-3.jpg);
+    position: absolute;
+    right: 0;
+    height: 80%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+  }
+
+  @media (max-width: 768px) {
+    .fasilitas-judul {
+    background-position: center;
+    width: 100%;
+  }
+
+  .fasilitas-content {
+    flex-direction: column;
+  }
+
+  .fasilitas-title {
+    margin-top: 1rem;
+  }
+
+  .fasilitas-title h1 {
+      font-size: 1.7rem;
+  }
+
+  .fasilitas-title p {
+      font-size: 1rem;
+  }
+
+  .fasilitas-img {
+    top: 12rem;
+    height: 50%;
+    width: 70%;
+  }
+  }

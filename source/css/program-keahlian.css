@@ -171,6 +171,10 @@
     border-bottom-left-radius: 20px;
 }
 
+.prospek-img-lnd {
+    display: none;
+}
+
 .prospek-title {
     width: 80%;
     padding: 20px;
@@ -228,6 +232,7 @@
 
     .kemampuan-judul i {
         font-size: 25px;
+        margin-bottom: -5px;
     }
 
     .kompetensi {
@@ -266,6 +271,7 @@
 
     .prospek-judul i {
         font-size: 25px;
+        margin-bottom: -5px;
     }
 
     .prospek-content {
@@ -274,9 +280,14 @@
     }
 
     .prospek-img {
-        width: 100%;
+        display: none;
+    }
+
+    .prospek-img-lnd {
+        display: block;
+        width: 358px;
         height: 200px;
-        overflow: hidden;
+        background-size: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
