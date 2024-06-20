@@ -5,9 +5,47 @@
   background-color: #FBF6EE;
 }
 
+.profil-judul {
+  background-image: url(../../assets/img/kegiatan-guru/Kegiatan-1.jpg);
+  background-size: cover;
+  height: 450px;
+}
+
+.bd-profil {
+  width: 100%;
+  height: 100%;
+  background-color: #508d69c7;
+  backdrop-filter: blur(3px);
+  padding: 0 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.profil-title h1 {
+  font-size: 3rem;
+}
+
+.profil-title p {
+  font-size: 1.7rem;
+  max-width: 700px;
+  color: white;
+}
+.profil-img {
+  background-image: url(../../assets/img/kegiatan-guru/Kegiatan-3.jpg);
+  position: absolute;
+  right: 0;
+  height: 80%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
 .visi-misi {
   height: fit-content;
-  padding: 7rem 5rem;
+  padding: 4rem;
   position: relative;
 }
 
@@ -20,13 +58,24 @@
   max-width: 60rem;
 }
 
-.judul-content {
+.visi-misi-judul {
   display: flex;
-  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+  height: fit-content;
+  color: #FFB534;
+  font-size: 2rem;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  gap: 1rem;
+}
+
+.visi-misi-judul i {
+  display: flex;
   align-items: center;
-  margin-top: 2.5rem;
-  max-width: 60rem;
-  margin: 0 auto;
+  font-size: 40px;
+  color: #508D69;
 }
 
 .isi-content {
@@ -69,65 +118,41 @@
 /* Bagian Profil */
 .profil {
   width: 100%;
+  padding: 4rem;
 }
 
-.profil-judul {
-  background-image: url(../../assets/img/kegiatan-guru/Kegiatan-1.jpg);
-  background-size: cover;
-  height: 450px;
-}
-
-.bd-profil {
-  width: 100%;
-  height: 100%;
-  background-color: #508d69c7;
-  backdrop-filter: blur(3px);
-  padding: 0 3rem;
-  align-items: center;
+.profil-guru-judul {
   display: flex;
   justify-content: left;
+  width: 100%;
+  height: fit-content;
+  color: #FFB534;
+  font-size: 2rem;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  gap: 1rem;
 }
 
-.profil-title h1 {
-  font-size: 3rem;
-}
-
-.profil-title p {
-  font-size: 1.7rem;
-  max-width: 700px;
-  color: white;
-}
-.profil-img {
-  background-image: url(../../assets/img/kegiatan-guru/Kegiatan-3.jpg);
-  position: absolute;
-  right: 0;
-  height: 80%;
-  width: 50%;
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-}
-
-.lg-profil-content {
-  padding: 4rem;
-  gap: 2rem;
+.profil-guru-judul i {
   display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: #508D69;
 }
 
-.md-profil-content {
-  display: none;
-}
-
-.lg-profil-content-row {
-  justify-content: center;
+.profil-container {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  justify-content: space-between;
   gap: 2rem;
 }
 
 .profile-card {
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 200px;
+  height: 300px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -188,13 +213,48 @@
 
 @media (max-width: 768px) {
   .visi-misi {
-    padding: 1rem 1.3rem;
+    padding: 1rem;
   }
 
-  .subsection-title {
-    font-size: 1rem;
-    margin-top: 2rem;
+  .profil-judul {
+    background-position: center;
+    height: 200px;
   }
+
+  .bd-profil {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .profil-title {
+    margin-top: 1rem;
+  }
+
+  .profil-title h1 {
+      font-size: 1.7rem;
+  }
+
+  .profil-title p {
+      font-size: 1rem;
+      font-weight: 200;
+  }
+
+  .profil-img {
+    display: none;
+  }
+
+  .visi-misi-judul {
+    margin-bottom: 10px;
+}
+
+  .visi-misi-judul h1 {
+    font-size: 1.5rem;
+}
+
+  .visi-misi-judul i {
+    font-size: 25px;
+    margin-bottom: -5px;
+}
 
   .judul-content {
     max-width: 100%;
@@ -203,7 +263,8 @@
   .isi-content {
     width: 100%;
     max-width: none;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
   }
 
   .judul-background {
@@ -261,47 +322,27 @@
     letter-spacing: 1px;
   }
 
-  .profil-judul {
-    background-position: center;
-    width: 100%;
+  .profil {
+    padding: 1rem;
   }
 
-  .bd-profil {
-    flex-direction: column;
-  }
+  .profil-guru-judul {
+    margin-bottom: 20px;
+}
 
-  .profil-title {
-    margin-top: 1rem;
-  }
+  .profil-guru-judul h1 {
+    font-size: 1.5rem;
+}
 
-  .profil-title h1 {
-      font-size: 1.7rem;
-  }
+  .profil-guru-judul i {
+    font-size: 25px;
+    margin-bottom: -5px;
+}
 
-  .profil-title p {
-      font-size: 1rem;
-  }
-
-  .profil-img {
-    top: 12rem;
-    height: 50%;
-    width: 70%;
-  }
-
-  .lg-profil-content {
-    display: none;
-  }
-
-  .md-profil-content {
-    display: flex;
-    padding: 2rem;
-    gap: 2rem;
-  }
-
-  .md-profil-content-row {
-    justify-content: center;
-    flex-direction: row;
-    gap: 2rem;
+  .profil-container {
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: 160px 160px 160px 160px;
+    gap: 1rem;
   }
 
   .profile-card {

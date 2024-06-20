@@ -79,16 +79,17 @@
 
   @media (max-width: 768px) {
     .fasilitas-judul {
-    background-position: center;
-    width: 100%;
+      background-position: center;
+      height: 200px;
   }
 
   .fasilitas-content {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .fasilitas-title {
     margin-top: 1rem;
+    text-align: center;
   }
 
   .fasilitas-title h1 {
@@ -97,12 +98,12 @@
 
   .fasilitas-title p {
       font-size: 1rem;
+      font-weight: 200;
   }
 
   .fasilitas-img {
-    top: 12rem;
-    height: 50%;
-    width: 70%;
+    height: 200px;
+    display: none;
   }
 
   .fasilitas-body {

@@ -72,13 +72,16 @@
     color: #FFB534;
     font-size: 2rem;
     position: relative;
-    flex-direction: column;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    gap: 1rem;
 }
 
 .kemampuan-judul i {
+    display: flex;
+    align-items: center;
     font-size: 40px;
     color: #508D69;
-    margin-bottom: -10px;
 }
 
 .kompetensi {
@@ -149,14 +152,16 @@
     color: #FFB534;
     font-size: 2rem;
     position: relative;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 3rem;
+    gap: 1rem;
 }
 
 .prospek-judul i {
+    display: flex;
+    align-items: center;
     font-size: 40px;
     color: #508D69;
-    margin-bottom: -10px;
 }
 
 .prospek-container {
@@ -213,14 +218,16 @@
 @media (max-width: 768px) {
     .program-judul {
         background-position: center;
+        height: 200px;
     }
 
     .program-content {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .program-title {
         margin-top: 1rem;
+        text-align: center;
     }
 
     .program-title h1 {
@@ -229,12 +236,12 @@
 
     .program-title p {
         font-size: 1rem;
+        font-weight: 200;
     }
 
     .program-img {
-        top: 12rem;
-        height: 50%;
-        width: 70%;
+        height: 200px;
+        display: none;
     }
 
     .kemampuan-judul {
