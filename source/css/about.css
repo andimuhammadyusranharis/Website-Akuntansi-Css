@@ -206,6 +206,14 @@
   transition: opacity 0.3s, bottom 0.3s;
 }
 
+.profile-info h3 {
+  font-size: 13px;
+}
+
+.profile-info p {
+  font-size: 10px;
+}
+
 .profile-card:hover .profile-info {
   bottom: 0;
   opacity: 1;
@@ -350,7 +358,11 @@
     height: 160px;
   }
 
-  .profile-info {
-    font-size: 7px;
+  .profile-info h3 {
+    font-size: 8px;
+  }
+  
+  .profile-info p {
+    font-size: 699 px;
   }
 }

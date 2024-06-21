@@ -30,6 +30,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Untuk Slider Jurusan Section Footer
-
-// Untuk Kompetensi Keahlian
+// Untuk Swiper Berita

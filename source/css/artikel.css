@@ -1,4 +1,4 @@
-/* .copy h1 {
+.copy h1 {
     font-size: 1.8rem;
     padding: 0;
     margin: 0 10px 0 0;
@@ -35,12 +35,11 @@
 .swiper-slide {
     width: 400px;
     height: 500px;
-    padding: 5px;
-    box-shadow: 5px 5px 10px -2px;
+    border: #508D69 solid 1px;
 }
 
 .swiper-content {
-    background-color: #fff;
+    background-color: #fcedd3;
     width: 100%;
     height: 100%;
 }
@@ -136,7 +135,7 @@
     transition: 0.2s all;
 }
 
-/* Card 1 
+/* /* Card 1  */
 .new-york {
     background: url("../../assets/img/kegiatan-guru/Kegiatan-14.jpg") center/cover;
 }
@@ -154,131 +153,130 @@
 }
 
 .new-york .middle .image.one {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7O-nPTS9BLCUX-uV1jihGs2QetTViwoOhUK0jctN6QLhITWCKA") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-14.jpg") center/cover;
 }
 
 .new-york .middle .image.two {
-    background: url("https://cdn.vox-cdn.com/thumbor/L9EthniNFveihyyk7EQSOhsx9_8=/0x0:3000x2002/1200x800/filters:focal(1260x761:1740x1241)/cdn.vox-cdn.com/uploads/chorus_image/image/55473705/uppereastside.0.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-13.jpg") center/cover;
 }
 
 .new-york .middle .image.three {
-    background: url("https://www.nps.gov/subjects/urban/images/new-york.JPG?maxwidth=1200&maxheight=1200&autorotate=false") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-11.jpg") center/cover;
 }
 
 .new-york .bottom .image.one {
-    background: url("https://d1v5vpeyrmf36z.cloudfront.net/media/CACHE/images/image-previews/squares/Tishman_RC_AttactionModule_600x600/1eb15b14cfbb90dba0e3813bc8193580.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-12.jpg") center/cover;
 }
 
 .new-york .bottom .image.two {
-    background: url("https://thenypost.files.wordpress.com/2017/04/new-york.jpg?quality=90&strip=all&w=618&h=410&crop=1") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-11.jpg") center/cover;
 }
 
 .new-york .bottom .image.three {
-    background: url("http://static1.squarespace.com/static/5813cddb8419c25c3b42eacd/5813e156414fb51499dfe55c/58670bbb197aea5283327c61/1488664764289/?format=1000w") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-14.jpg") center/cover;
 }
 
 .san-fran {
-    background: url("http://s3.envato.com/files/241747423/20171202-North-Beach-p4p-0197-4mp.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-2.jpg") center/cover;
 }
 
 .san-fran .top .image.one {
-    background: url("https://cdn.vox-cdn.com/thumbor/nkA0OYFOejA96gXee5DQG9RZVFk=/0x0:1368x912/1200x800/filters:focal(575x347:793x565)/cdn.vox-cdn.com/uploads/chorus_image/image/55144679/Pius_Lee.0.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-1.jpg") center/cover;
 }
 
 .san-fran .top .image.two {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzWjZw4b1U4dttrxI7n1GZKiJ3hkQxl8d3bHcXlo0a7v89a-NpHw") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-3.jpg") center/cover;
 }
 
 .san-fran .top .image.three {
-    background: url("http://assets.fodors.com/destinations/54494/alamo-square-san-francisco-california-usa_main.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-4.jpg") center/cover;
 }
 
 .san-fran .middle .image.one {
-    background: url("https://cdn-images-1.medium.com/max/800/1*J0Znftz9w-YEdOSILoV6kw.jpeg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-5.jpg") center/cover;
 }
 
 .san-fran .middle .image.two {
-    background: url("https://www.jetblue.com/img/vacations/destination/San-Francisco-960-x-420.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-6.jpg") center/cover;
 }
 
 .san-fran .middle .image.three {
-    background: url("https://az616578.vo.msecnd.net/files/2016/05/16/635989831137616837-380923038_san-francisco-real-estate-market-trends-3.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-7.jpg") center/cover;
 }
 
 .san-fran .bottom .image.one {
-    background: url("http://s79f01z693v3ecoes3yyjsg1.wpengine.netdna-cdn.com/wp-content/uploads/2016/12/sf.IDriveSF.1230.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-8.jpg") center/cover;
 }
 
 .san-fran .bottom .image.two {
-    background: url("https://www.smartdestinations.com/img/pt/dest/Sfo/att/Sfo_Att_Hop_On_Hop_Off_Classic_Tour_1_Day_Ticket/gallery/Hop-On-Hop-Off-Classic-Tour-1-Day-Ticket-1.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-9.jpg") center/cover;
 }
 
 .san-fran .bottom .image.three {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/San_Francisco_%28Evening%29.jpg/1200px-San_Francisco_%28Evening%29.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-10.jpg") center/cover;
 }
 
 .chicago {
-    background: url("https://i2.wp.com/www.maven.co/wp-content/uploads/2014/07/Chicago-Skyline.jpg?ssl=1") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-22.jpg") center/cover;
 }
 
 .chicago .top .image.one {
-    background: url("http://www.chicagobusiness.com/apps/pbcsi.dll/storyimage/CG/20180118/NEWS07/180119900/AR/0/amazon-hq2-chicago.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-21.jpg") center/cover;
 }
 
 .chicago .top .image.two {
-    background: url("https://chicagoinnovation.com//wp-content/uploads/2017/10/chicago_innovation_mission_video_screenshot.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-23.jpg") center/cover;
 }
 
 .chicago .top .image.three {
-    background: url("http://www.monaco-chicago.com/images/1700-960/chicago-skyline-f81e26ea.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-24.jpg") center/cover;
 }
 
 .chicago .middle .image.one {
-    background: url("https://www.visittheusa.co.uk/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2018-05/2af94a274ebf7f6716f9b2068595581c.jpeg?itok=E4aYJ2RV") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-25.jpg") center/cover;
 }
 
 .chicago .middle .image.two {
-    background: url("https://3hkj9i2chtjx336clgvx1skh-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/DowntownChicago_BodyImage.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-26.jpg") center/cover;
 }
 
 .chicago .middle .image.three {
-    background: url("https://d12dkjq56sjcos.cloudfront.net/pub/media/wysiwyg/chicago/01-city-landing/View-Of-Chicago-Oak-St-Beach-Lake-Michigan.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-27.jpg") center/cover;
 }
 
 .chicago .bottom .image.one {
-    background: url("https://tt-wp-insider.imgix.net/2018/04/chicago-oak-street-beach-downtown.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-28.jpg") center/cover;
 }
 
 .chicago .bottom .image.two {
-    background: url("https://img.buzzfeed.com/buzzfeed-static/static/2014-03/campaign_images/webdr06/27/23/50-things-you-probably-didnt-know-about-chicago-2-16837-1395978386-4_dblbig.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-29.jpg") center/cover;
 }
 
 .chicago .bottom .image.three {
-    background: url("https://www.martplaza.com/resourcefiles/things-to-do-slider-slider/navy-pier-at-chicago-th.jpg") center/cover;
+    background: url("../../assets/img/kegiatan-guru/Kegiatan-30.jpg") center/cover;
 }
 
 .copy {
     padding: 20px;
 }
 
-.footer {
-    bottom: 0;
-    margin-bottom: 35px;
+.article-footer {
+    bottom: 15px;
     color: graytext;
 }
 
-.footer .time {
+.article-footer .time {
     display: inline-block;
 }
 
-.footer .comments {
+.article-footer .comments {
     display: inline-block;
     margin-left: 20px;
     cursor: pointer;
     transition: 0.2s all;
 }
 
-.footer .comments:hover {
+.article-footer .comments:hover {
     color: #508D69;
     transition: 0.2s all;
-} */
+}
