@@ -1,6 +1,5 @@
 /* Google Font Nunito */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AU+QLD:wght@100..400&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +9,10 @@
     list-style: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /* Class Tailwind */

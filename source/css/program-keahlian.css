@@ -215,6 +215,29 @@
     margin-bottom: 10px;
 }
 
+/* Tampilan Desktop */
+@media (max-width: 1256px) {
+    .program-judul {
+        background-position: center;
+        height: 400px;
+    }
+
+    .program-img {
+        height: 70%;
+        width: 40%;
+    }
+
+    .program-title h1 {
+        font-size: 2.8rem;
+    }
+
+    .program-title {
+        font-size: 1.5rem;
+        max-width: 500px;
+    }
+}
+
+/* Tampilan Tablet */
 @media (max-width: 768px) {
     .program-judul {
         background-position: center;

@@ -49,13 +49,9 @@
   position: relative;
 }
 
-.subsection-title {
-  font-size: 2rem;
-}
-
-.sub-title-span {
-  color: #508D69;
-  max-width: 60rem;
+.visi, .misi li, .tujuan {
+  font-style: italic;
+  font-size: 1rem ;
 }
 
 .visi-misi-judul {
@@ -78,41 +74,39 @@
   color: #508D69;
 }
 
+.content-container {
+  display: flex;
+  gap: 2rem;
+}
+
 .isi-content {
-  max-width: 45rem;
-  margin-top: 3rem;
+  flex: 0 50%;
   overflow: hidden;
+  position: relative;
 }
 
-.judul-background {
-  width: 30px;
-  height: 40px;
-  background-color: #508D69;
-  left: -6px;
-  border-top-right-radius: 9999px;
-  border-bottom-right-radius: 9999px;
+.isi-content h1 {
+  font-family: "Playwrite AU QLD", cursive;
+  font-size: 24px;
 }
 
-.kajur {
-  right: -60px;
+.child-isi-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.name-background {
-  background-color: #508D69;
-  width: 600px;
-  height: 130px;
-  border-top-left-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-  right: 0;
-  bottom: 150px;
-  padding: 10px 50px 10px;
+.sub-content {
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-.sub-name {
-  width: 100%;
-  height: 100%;
-  color: white;
-  letter-spacing: 3px;
+.img-content {
+  flex: 0 0 50%;
+  background-image: url(../../assets/img/School\ Building.png);
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px;
 }
 
 /* Bagian Profil */
@@ -219,9 +213,100 @@
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+/* Tampilan Desktop */
+@media (max-width: 1256px) {
   .visi-misi {
-    padding: 1rem;
+    padding: 3rem;
+  }
+
+  .profil-img {
+    height: 70%;
+    width: 40%;
+  }
+
+  .profil-judul {
+    background-position: center;
+    height: 400px;
+  }
+
+  .profil-title h1 {
+      font-size: 2.8rem;
+  }
+
+  .profil-title p {
+      
+  }
+
+  .visi-misi-judul h1 {
+    font-size: 2.4rem;
+}
+
+  .visi-misi-judul i {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.profil-guru-judul h1 {
+  font-size: 2.4rem;
+}
+
+.profil-guru-judul i{
+  font-size: 40px;
+}
+}
+
+@media (max-width: 1500px) {
+  .profil-container {
+    grid-template-rows: 230px 230px;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  }
+
+  .profile-card {
+    width: 150px;
+    height: 230px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .profil-container {
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 130px 130px 130px 130px 130px 130px;
+  }
+
+  .profile-card {
+    width: 130px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .profil-container {
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 200px 200px 200px 200px;
+  }
+
+  .profile-card {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1030px) {  
+  .profil-container {
+    grid-template-rows: 230px 230px 230px;
+    grid-template-columns: 150px 150px 150px 150px;
+  }
+
+  .profile-card {
+    width: 150px;
+    height: 230px;
+  }
+}
+
+/* Tampilan Tablet */
+@media (max-width: 845px) {
+  .visi-misi {
+    padding: 3rem;
   }
 
   .profil-judul {
@@ -231,6 +316,7 @@
 
   .bd-profil {
     flex-direction: row;
+    justify-content: center;
     text-align: center;
   }
 
@@ -269,8 +355,7 @@
   }
 
   .isi-content {
-    width: 100%;
-    max-width: none;
+    flex: 100%;
     margin-bottom: 2rem;
     margin-top: 1rem;
   }
@@ -296,8 +381,12 @@
     display: block;
   }
 
-  .judul-background {
-    right: 100px;
+  .content-container {
+    justify-content: center;
+  }
+
+  .img-content {
+    display: none;
   }
 
   .visi,
@@ -305,33 +394,8 @@
     text-align: center;
   }
 
-  .kajur {
-    display: none;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    top: 20rem;
-  }
-
-  .name-background {
-    display: none;
-    position: relative;
-    width: 100%;
-    right: 0;
-    bottom: -3rem;
-    border-radius: 0;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-
-  .sub-name {
-    letter-spacing: 1px;
-  }
-
   .profil {
-    padding: 1rem;
+    padding: 3rem;
   }
 
   .profil-guru-judul {
@@ -348,14 +412,14 @@
 }
 
   .profil-container {
-    grid-template-columns: 110px 110px 110px;
-    grid-template-rows: 160px 160px 160px 160px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 230px 230px 230px 230px;
     gap: 1rem;
   }
 
   .profile-card {
-    width: 110px;
-    height: 160px;
+    width: 150px;
+    height: 230px;
   }
 
   .profile-info h3 {
@@ -364,5 +428,40 @@
   
   .profile-info p {
     font-size: 699 px;
+  }
+}
+
+/* Tampilan Mobile */
+@media (max-width: 576px) {
+  .visi-misi {
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .child-isi-content p, .child-isi-content li{
+    font-size: 14px;
+  }
+
+  .isi-content {
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .sub-content {
+    margin-bottom: 5px;
+  }
+
+  .profil {
+    padding: 1rem;
+  }
+
+  .profil-container {
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 130px 130px 130px 130px;
+    justify-content: space-around;
+  }
+
+  .profile-card {
+    width: 90px;
+    height: 130px;
   }
 }

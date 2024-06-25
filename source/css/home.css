@@ -55,14 +55,40 @@
   margin-top: 3rem;
 }
 
-@media (max-width: 768px) {
+/* Tampilan Desktop */
+@media (max-width: 1256px) {
+
+}
+
+/* Tampilan Tablet */
+@media (max-width: 845px) {
+  .logo-item {
+    width: 4rem;
+}
+
+.logo-container {
+    flex-direction: row;
+    padding: 0.8rem 2rem;
+}
+
+.beranda-title {
+    font-size: 2rem;
+}
+
+.beranda-subtitle {
+    font-size: 1rem;
+}
+}
+
+/* Tampilan Mobile */
+@media (max-width: 576px) {
   .logo-item {
     width: 3rem;
 }
 
 .logo-container {
     flex-direction: row;
-    padding: 1rem;
+    padding: 0.8rem 1.5rem;
 }
 
 .beranda-title {
@@ -70,6 +96,6 @@
 }
 
 .beranda-subtitle {
-    font-size: 1rem;
+    font-size: 15px;
 }
 }

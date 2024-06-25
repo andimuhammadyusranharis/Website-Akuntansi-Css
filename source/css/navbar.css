@@ -5,7 +5,7 @@
   height: 6rem;
   padding: 1rem 1.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   z-index: 50;
   transition: background-color 0.3s;
@@ -35,11 +35,6 @@
   font-weight: bold;
 }
 
-.navbar-menu {
-  display: flex;
-  align-items: center;
-}
-
 .menu-btn {
   display: none;
   color: white;
@@ -64,7 +59,8 @@
   display: flex;
   list-style: none;
   flex-direction: row;
-  gap: 2rem;
+  justify-content: space-between;
+  width: 50%;
 }
 
 .menu-item {
@@ -120,7 +116,47 @@
   text-underline-offset: 0.5rem;
 }
 
-@media (max-width: 768px) {
+/* Tampilan Desktop */
+@media (max-width: 1256px) {
+    .navbar-title {
+      font-size: 1rem;
+    }
+
+    .menu {
+      width: 55%;
+    }
+
+    .menu-item {
+      font-size: 14px;
+    }
+}
+
+/* Tampilan Tablet */
+@media (max-width: 845px) {
+  .navbar-title {
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .menu-btn {
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu {
+    width: 60%;
+  }
+
+  .menu-item {
+    display: none;
+  }
+}
+
+/* Tampilan Mobile */
+@media (max-width: 576px) {
   .navbar {
     height: 4rem;
   }
@@ -139,18 +175,6 @@
 
   .navbar-title {
     font-size: 1.5rem;
-  }
-
-  .menu {
-      display: none;
-  }
-
-  .menu-btn {
-    display: block;
-    color: white;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
   }
 
   .sidebar-content {

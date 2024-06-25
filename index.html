@@ -23,7 +23,6 @@
             </a>
             <h1 class="navbar-title">Akuntansi Dan Keuangan Lembaga</h1>
         </div>
-        <div class="navbar-menu">
         <ul id="menu" class="menu">
             <li><a class="menu-item" href="#Beranda">Beranda</a></li>
             <li><a class="menu-item" href="#Tentang-kami">Tentang Kami</a></li>
@@ -31,16 +30,15 @@
             <li><a class="menu-item" href="#Fasilitas">Fasilitas</a></li>
             <li><a class="menu-item" href="#Berita-kegiatan">Berita & Kegiatan</a></li>
             <li><a class="menu-item" href="#Kontak">Kontak</a></li>
-            </ul>
-            <button id="menu-btn" class="menu-btn">
-                <svg id="hamburger-icon" class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-                <svg id="close-icon" class="icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-            </button>
-        </div>
+        </ul>
+        <button id="menu-btn" class="menu-btn">
+            <svg id="hamburger-icon" class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+            <svg id="close-icon" class="icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
     </header>
     <!-- Header Navbar End -->
 
@@ -94,44 +92,33 @@
           <i class="fa-solid fa-clipboard-check"></i>
           <h1>Visi Misi Tujuan</h1>
         </div>
-        <div>
-            <div class="isi-content gap-2 flex flex-col">
-                <div class="child-isi-content">
-                    <div class="sub-content flex flex-row">
-                        <div class="judul-background absolute"></div>
-                        <h1 class="text-3xl">Visi</h1>
-                    </div>
-                    <p class="text-xl visi">Mewujudkan tenaga menengah dan profesional dalam bidang Akuntansi sesuai dengan tuntutan dunia industri dengan etos kerja yang tinggi dan memiliki sikap hidup mandiri dan religius.</p>
-                </div>
-                <div class="child-isi-content">
-                    <div class="sub-content flex flex-row">
-                        <div class="judul-background absolute"></div>
-                        <h1 class="text-3xl">Misi</h1>
-                    </div>
-                    <ul class="text-xl">
-                        <li>Mewujudkan sikap dan perilaku berakhlah  mulia, jujur, disiplin, kreatif, dan bertanggung jawab.</li>
-                        <li>Mengembangkan sikap dan keterampilan peserta didik dalam bidang Akuntansi.</li>
-                        <li>Mampu mengembagkan bidang Akuntansi yang relevan dengan kebutuhan dunia usaha/ dunia industri.</li>
-                        <li>Menghasilkan lulusan tenaga kerja tingkat menengah yang kompeten dan profesional yang mampu hidup mandiri serta dapat melanjutkan pendidikan yang lebih tinggi.</li>
-                    </ul>
-                </div>
-                <div class="child-isi-content">
-                    <div class="sub-content flex flex-row">
-                        <div class="judul-background absolute"></div>
-                        <h1 class="text-3xl">Tujuan</h1>
-                    </div>
-                    <p class="text-xl tujuan">Mewujudkan tenaga menengah dan profesional dalam bidang Akuntansi sesuai dengan tuntutan dunia industri dengan etos kerja yang tinggi dan memiliki sikap hidup mandiri dan religius.</p>
-                </div>
-            </div>
-    
-            <img src="./assets/img/teacher/ramla-sawedi.png" style="bottom: 150px; right: 10px;" class="absolute kajur" width="600px" alt="">
-            <div class="name-background absolute items-center flex">
-                <div class="flex flex-col sub-name">
-                    <h1 class="text-2xl items-center text-center">Kepala Program Keahlian</h1>
-                    <p class="text-xl text-center" style="margin-top: 15px;">RAMLA SAWEDI, S.Pd</p>
-                    <p class="text-md text-center">NIP. 198407182009022002</p>
-                </div>
-            </div>
+        <div class="content-container">
+          <div class="isi-content gap-2 flex flex-col">
+              <div class="child-isi-content">
+                  <div class="sub-content flex flex-row">
+                      <h1 class="text-3xl">Visi</h1>
+                  </div>
+                  <p class="text-xl visi">"Mewujudkan tenaga menengah dan profesional dalam bidang Akuntansi sesuai dengan tuntutan dunia industri dengan etos kerja yang tinggi dan memiliki sikap hidup mandiri dan religius."</p>
+              </div>
+              <div class="child-isi-content">
+                  <div class="sub-content flex flex-row">
+                      <h1 class="text-3xl">Misi</h1>
+                  </div>
+                  <ul class="text-xl misi">
+                      <li>"Mewujudkan sikap dan perilaku berakhlah  mulia, jujur, disiplin, kreatif, dan bertanggung jawab."</li>
+                      <li>"Mengembangkan sikap dan keterampilan peserta didik dalam bidang Akuntansi."</li>
+                      <li>"Mampu mengembagkan bidang Akuntansi yang relevan dengan kebutuhan dunia usaha/ dunia industri."</li>
+                      <li>"Menghasilkan lulusan tenaga kerja tingkat menengah yang kompeten dan profesional yang mampu hidup mandiri serta dapat melanjutkan pendidikan yang lebih tinggi."</li>
+                  </ul>
+              </div>
+              <div class="child-isi-content">
+                  <div class="sub-content flex flex-row">
+                      <h1 class="text-3xl">Tujuan</h1>
+                  </div>
+                  <p class="text-xl tujuan">"Mewujudkan tenaga menengah dan profesional dalam bidang Akuntansi sesuai dengan tuntutan dunia industri dengan etos kerja yang tinggi dan memiliki sikap hidup mandiri dan religius."</p>
+              </div>
+          </div>
+          <div class="img-content"></div>
         </div>
     </div>
 
@@ -408,7 +395,7 @@
     <!-- Program Keahlian End -->
 
     <!-- Fasilitas Start -->
-<section id="Fasilitas" class="fasilitas">
+<section id="Fasilitas" class="fasilitas" style="display: none;">
   <div class="fasilitas-judul relative">
     <div class="fasilitas-content flex flex-row relative">
       <div class="fasilitas-img">
@@ -478,7 +465,7 @@
     <!-- Fasilitas End -->
 
     <!-- Berita & Kegiatan Start -->
-<section id="Berita-kegiatan" class="berita-kegiatan">
+<section id="Berita-kegiatan" class="berita-kegiatan" style="display: none;">
   <!-- Swiper -->
 <!-- <div class="swiper-container">
   <div class="swiper-wrapper flex flex-row"> -->
