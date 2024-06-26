@@ -234,7 +234,8 @@
   }
 
   .profil-title p {
-      
+      font-size: 1.5rem;
+      max-width: 500px;
   }
 
   .visi-misi-judul h1 {
@@ -423,11 +424,11 @@
   }
 
   .profile-info h3 {
-    font-size: 8px;
+    font-size: 10px;
   }
   
   .profile-info p {
-    font-size: 699 px;
+    font-size: 8px;
   }
 }
 
@@ -463,5 +464,13 @@
   .profile-card {
     width: 90px;
     height: 130px;
+  }
+
+  .profile-info h3 {
+    font-size: 8px;
+  }
+  
+  .profile-info p {
+    font-size: 7px;
   }
 }

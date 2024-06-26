@@ -216,7 +216,7 @@
 }
 
 /* Tampilan Desktop */
-@media (max-width: 1256px) {
+@media (max-width: 1500px) {
     .program-judul {
         background-position: center;
         height: 400px;
@@ -227,18 +227,22 @@
         width: 40%;
     }
 
+    .program-title {
+        text-align: right;
+    }
+
     .program-title h1 {
         font-size: 2.8rem;
     }
 
-    .program-title {
+    .program-title p {
         font-size: 1.5rem;
-        max-width: 500px;
+        max-width: 600px;
     }
 }
 
 /* Tampilan Tablet */
-@media (max-width: 768px) {
+@media (max-width: 845px) {
     .program-judul {
         background-position: center;
         height: 200px;
@@ -246,11 +250,13 @@
 
     .program-content {
         flex-direction: row;
+        justify-content: center;
+        text-align: center;
     }
 
     .program-title {
-        margin-top: 1rem;
         text-align: center;
+        margin-top: 1rem;
     }
 
     .program-title h1 {
@@ -263,7 +269,6 @@
     }
 
     .program-img {
-        height: 200px;
         display: none;
     }
 

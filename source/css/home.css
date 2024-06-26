@@ -101,6 +101,10 @@
 }
 
 @media (max-width: 450px) {
+  .beranda {
+    gap: 1rem;
+  }
+
   .logo-container {
     padding: 0.6rem 1.2rem;
   }
@@ -115,5 +119,6 @@
 
   .beranda-subtitle {
     font-size: 13px;
+    margin-top: 2rem;
   }
 }
