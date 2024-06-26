@@ -99,3 +99,21 @@
     font-size: 15px;
 }
 }
+
+@media (max-width: 450px) {
+  .logo-container {
+    padding: 0.6rem 1.2rem;
+  }
+
+  .logo-item {
+    width: 2rem;
+  }
+
+  .beranda-title {
+    font-size: 1.2rem;
+  }
+
+  .beranda-subtitle {
+    font-size: 13px;
+  }
+}

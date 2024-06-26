@@ -134,8 +134,8 @@
 /* Tampilan Tablet */
 @media (max-width: 845px) {
   .navbar-title {
-    font-size: 18px;
-    width: 300px;
+    font-size: 1.4rem;
+    width: 400px;
   }
 
   .menu-btn {
@@ -169,12 +169,9 @@
     width: 35px;
   }
 
-  .navbar-logo h1 {
-    font-size: 15px;
-  }
-
   .navbar-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width:  330px;
   }
 
   .sidebar-content {
@@ -189,4 +186,15 @@
   .sidebar-item {
     font-size: 1rem;
 }
+}
+
+@media (max-width: 450px) {
+  .navbar-title {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .logo {
+    width: 30px;
+  }
 }
